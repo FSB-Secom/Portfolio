@@ -308,11 +308,12 @@ const CASES = [
       "img/mockup60.png"
     ],
     videoUrl: "",
-    credits: "Direção de arte e diagramação: Wan Chagas",
+    credits: "Direção de arte e diagramação: Wan Chagas ",
     pdfUrl: "",
     pdfLabel: "Baixar apresentação"
     },
      
+      
       
 ];
 
