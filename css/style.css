@@ -749,7 +749,18 @@ em {
   }
 
   .modal__body { padding: 20px 20px 28px; }
-  .modal__images { grid-template-columns: 1fr; }
+  .modal__images {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .modal__images img,
+  .modal__images img:nth-child(3) {
+    grid-column: auto;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+  }
 
   .modal__media {
     height: 200px;
