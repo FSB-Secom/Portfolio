@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio — FSB Comunicação</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container navbar__inner">
+      <a href="#" class="navbar__logo">
+        <span class="logo-mark">▪</span>
+        <span>FSB Comunicação</span>
+      </a>
+      <nav class="navbar__links">
+        <a href="#cases">Cases</a>
+        <a href="#equipe">Equipe</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <button class="navbar__hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__tag">Portfólio de Criação</div>
+      <h1 class="hero__title">Comunicação, design e tecnologia para <em>um país em movimento.</em></h1>
+      <p class="hero__subtitle">Soluções visuais e digitais desenvolvidas pela equipe de criação da FSB para a SECOM.</p>
+      <a href="#cases" class="btn btn--primary">Ver cases</a>
+    </div>
+    <div class="hero__bg-line"></div>
+  </section>
+
+  <!-- FILTROS -->
+  <section class="filters-bar" id="cases">
+    <div class="container filters-bar__inner">
+      <button class="filter-btn active" data-filter="all">Todos</button>
+      <button class="filter-btn" data-filter="design">Design</button>
+      <button class="filter-btn" data-filter="video">Vídeo</button>
+      <button class="filter-btn" data-filter="digital">Digital</button>
+    </div>
+  </section>
+
+  <!-- CASES GRID -->
+  <main class="cases-section">
+    <div class="container">
+     <div class="cases-grid" id="casesGrid">
+        <!-- Preenchido automaticamente pelo js/cases.js -->
+      </div>
+    </div>
+  </main>
+
+  <!-- SEÇÃO EQUIPE -->
+  <section class="team-section" id="equipe">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">A equipe</span>
+        <h2 class="section-title">Quem faz acontecer</h2>
+      </div>
+      <div class="team-grid" id="teamGrid">
+
+        <div class="team-card">
+          <div class="team-card__avatar">
+            <img src="img/marcelo.jpg" alt="Membro 1" onerror="this.style.display='none'" />
+            <div class="team-card__avatar-fallback">JD</div>
+          </div>
+          <h3 class="team-card__name">Marcelo Inácio</h3>
+          <p class="team-card__role">Coordenador / Criação</p>
+        </div>
+
+<div class="team-card">
+          <div class="team-card__avatar">
+            <img src="img/Giovana.jpg" alt="Membro 4" onerror="this.style.display='none'" />
+            <div class="team-card__avatar-fallback">LP</div>
+          </div>
+          <h3 class="team-card__name">Giovana </h3>
+          <p class="team-card__role"> Gestora de Conteúdo / Criação </p>
+        </div>
+
+
+        <div class="team-card">
+          <div class="team-card__avatar">
+            <img src="img/julia.jpg" alt="Membro 2" onerror="this.style.display='none'" />
+            <div class="team-card__avatar-fallback">AS</div>
+          </div>
+          <h3 class="team-card__name">Júlia Oliveira</h3>
+          <p class="team-card__role">Diretora de Arte / Criação </p>
+        </div>
+
+        <div class="team-card">
+          <div class="team-card__avatar">
+            <img src="img/Alex.jpeg" alt="Membro 3" onerror="this.style.display='none'" />
+            <div class="team-card__avatar-fallback">RM</div>
+          </div>
+          <h3 class="team-card__name">Alexander Severino</h3>
+          <p class="team-card__role"> Designer Generalista / Criação </p>
+        </div>
+
+        <div class="team-card">
+          <div class="team-card__avatar">
+            <img src="img/Wan.jpeg" alt="Membro 4" onerror="this.style.display='none'" />
+            <div class="team-card__avatar-fallback">LP</div>
+          </div>
+          <h3 class="team-card__name"> Wan Chagas</h3>
+          <p class="team-card__role">Designer Gráfico / Criação</p>
+        </div>
+
+
+                        <div class="team-card">
+          <div class="team-card__avatar">
+            <img src="img/Diego.jpg" alt="Membro 4" onerror="this.style.display='none'" />
+            <div class="team-card__avatar-fallback">LP</div>
+          </div>
+          <h3 class="team-card__name">Diego Campos</h3>
+          <p class="team-card__role"> Vídeomaker / Audiovisual </p>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contact-section" id="contato">
+    <div class="container contact-inner">
+      <div class="section-header">
+        <span class="section-tag">Contato</span>
+        <h2 class="section-title">Fale com a equipe</h2>
+      </div>
+      <p class="contact-desc">Para novos projetos, parcerias ou dúvidas, entre em contato pelo e-mail abaixo.</p>
+      <a href="mailto:criacao.secompr@fsb.com.br" class="btn btn--primary">criacao.secompr@fsb.com.br</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__copy">© 2025 FSB Comunicação — Todos os direitos reservados</span>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal">
+      <button class="modal__close" id="modalClose" aria-label="Fechar">✕</button>
+
+      <div class="modal__media" id="modalMedia">
+        <!-- imagem ou vídeo injetado por JS -->
+      </div>
+
+      <div class="modal__body">
+        <div class="modal__tag" id="modalTag"></div>
+        <h2 class="modal__title" id="modalTitle"></h2>
+        <p class="modal__client" id="modalClient"></p>
+        <p class="modal__desc" id="modalDesc"></p>
+
+        <div class="modal__images" id="modalImages"></div>
+
+        <div class="modal__video-wrap" id="modalVideo" style="display:none">
+          <iframe id="modalIframe" src="" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Vídeo do case"></iframe>
+        </div>
+
+        <div class="modal__actions" id="modalActions"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/cases.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
