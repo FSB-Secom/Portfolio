@@ -294,10 +294,25 @@ const CASES = [
     pdfUrl: "",
     pdfLabel: "Baixar apresentação"
     },
-    
-    
-    
-    
+    {
+    title: "Relatórios para o presidente",
+    client: "SECOM · 2026",
+    category: "design",
+    tag: "Design",
+    desc: "Criação da identidade visual e diagramação de relatórios estratégicos",
+    fullDesc: "A equipe foi responsável pela criação da identidade visual e pela diagramação de relatórios estratégicos, incluindo os relatórios de viagens internacionais do presidente e o relatório quinzenal regional. O trabalho buscou organizar e hierarquizar grandes volumes de informação de forma clara e visual, criando uma linguagem gráfica consistente que facilita a leitura, a consulta de dados e a compreensão dos principais destaques de cada documento.",
+    thumb: "img/mockup57.png",
+    images: [
+      "img/mockup58.png",
+      "img/mockup59.png",
+      "img/mockup60.png"
+    ],
+    videoUrl: "",
+    credits: "Diagramação: Alex Severino, Júlia Oliveira e Wan Chagas",
+    pdfUrl: "",
+    pdfLabel: "Baixar apresentação"
+    },
+     
       
 ];
 
