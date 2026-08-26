@@ -189,7 +189,7 @@ const CASES = [
     tag: "Identidade Visual",
     desc: "Breve descrição do projeto para exibição no grid de cases.",
     fullDesc: "Descrição completa do case para o modal. Explique o desafio, a solução criativa adotada e os resultados alcançados.",
-    thumb: "img/case6-thumb.jpg",
+    thumb: "img/mockup38.jpg",
     images: [],
     videoUrl: "",
     pdfUrl: "",
