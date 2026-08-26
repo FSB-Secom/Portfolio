@@ -308,10 +308,11 @@ const CASES = [
       "img/mockup60.png"
     ],
     videoUrl: "",
-    credits: "Diagramação: Alex Severino, Júlia Oliveira e Wan Chagas",
+    credits: "Direção de arte e diagramação: Wan Chagas ",
     pdfUrl: "",
     pdfLabel: "Baixar apresentação"
     },
+  
      
       
 ];
