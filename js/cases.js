@@ -290,7 +290,7 @@ const CASES = [
       "img/mockup47.png"
     ],
     videoUrl: "",
-    credits: "Diagramação: Alex Severino, Júlia Oliveira e Wan Chagas",
+    credits: "Diagramação: Marcelo Inácio, Alex Severino, Júlia Oliveira e Wan Chagas",
     pdfUrl: "",
     pdfLabel: "Baixar apresentação"
     },
